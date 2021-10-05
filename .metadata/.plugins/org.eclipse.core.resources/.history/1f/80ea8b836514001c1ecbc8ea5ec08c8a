@@ -1,0 +1,39 @@
+package Opps_Concepts;
+
+public class Method_Overload {
+	
+	
+	public void newLaunched() {
+		System.out.println("mobile Phone");
+	}
+	public String newLaunched(String a) {
+		System.out.println("mobile :");
+		return a;
+	}
+	public void newLaunched(int a) {
+		System.out.println("mobile Price :"+a);
+	}
+	public void newLaunched(String b,int a) {
+		System.out.println("mobile Phone :"+b+a);
+	}
+	
+	public static void main(String[] args) {
+		 Method_Overload mv = new Method_Overload();
+		 mv.newLaunched();
+		 mv.newLaunched("oneplus");
+		 mv.newLaunched(21000);
+		 mv.newLaunched("soldOut", 12345);	 
+	}
+	
+//	In the class, methods names are same,
+//	but aruguments are differents;
+//	
+//  	Based On:
+//		     data types;
+//	    data type order;
+//	    data type count;
+	
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package Opps_Concepts;
+
+public class class_A {
+	
+	
+	public void method1() {
+		System.out.println("method A");
+	}
+
+}

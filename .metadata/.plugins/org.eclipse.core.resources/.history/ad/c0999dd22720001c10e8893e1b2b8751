@@ -1,0 +1,10 @@
+Feature: To book hotel
+Scenario: To Check login functionality
+Given User enters into the login page
+When User enters username and password
+Then User clicks the login button
+
+Scenerio:  hotel Booking
+Given user should select loction
+When user should select room type
+And user should select room 

@@ -1,0 +1,15 @@
+package com.collectionss;
+
+import java.util.List;
+
+public class Aray_List {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> li = new 
+		
+		
+		
+	
+		}
+}

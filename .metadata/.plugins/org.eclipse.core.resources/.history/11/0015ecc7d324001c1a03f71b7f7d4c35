@@ -1,0 +1,61 @@
+package com.test;
+
+public class Ignore {
+	
+	
+	public static void montex() {
+		System.out.println("pen");
+	}
+	
+	public static void cello() {
+		System.out.println("pen");
+	}
+	
+	public static void flair() {
+		System.out.println("pen");
+	}
+	
+	public static void reynolds() {
+		System.out.println("pen");
+	}
+	
+	public static void natraj() {
+		System.out.println("pencil");
+	}
+	public static void apsara() {
+		System.out.println("pencil");
+	}
+	public static void doms() {
+		System.out.println("pencil");
+	}
+	public static void camlin() {
+		System.out.println("pencil");
+	}
+	public static void pilot() {
+		System.out.println("books");
+	}
+	public static void classMate() {
+		System.out.println("books");
+	}
+	public static void cosco() {
+		System.out.println("books");
+	}
+	public static void brilliant() {
+		System.out.println("books");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+}

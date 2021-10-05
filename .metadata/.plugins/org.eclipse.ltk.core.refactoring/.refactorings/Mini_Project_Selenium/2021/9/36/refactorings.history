@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;org.auto&apos; to &apos;com.miniproject&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Automation&apos;&#x0D;&#x0A;- Original element: &apos;Selenium_Automation/src/org.auto&apos;&#x0D;&#x0A;- Renamed element: &apos;Selenium_Automation/src/com.miniproject&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;org.auto&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;org.auto" name="com.miniproject" qualified="false" references="true" stamp="1630631056778" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package Opps_Concepts;
+
+public class class_B extends class_A{
+	
+	public void method2() {
+		System.out.println("method ABC");
+	}
+	public  void method3() {
+		System.out.println("method B");
+
+	}
+	public static void main(String[] args) {
+//		class_A c = new class_A();
+//		c.method1();
+//		c.method2();
+		
+		class_B cs = new class_B();
+		cs.method3();
+		cs.method2();
+		cs.method1(20);
+		
+//		class_A al = new class_B();
+//		class_B cl = new class_A();
+		
+	}
+
+}

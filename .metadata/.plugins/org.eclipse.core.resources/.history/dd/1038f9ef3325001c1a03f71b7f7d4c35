@@ -1,0 +1,79 @@
+package com.definition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.baseclass.Baseclass;
+import com.runner.Step_Runner;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class Step_Definition extends Baseclass{
+	
+	//static WebDriver driver=Step_Runner.driver;
+	
+	static WebDriver driver= Step_Runner.driver;
+	
+	
+	@Given("^user should launch the apllication$")
+	public void user_should_launch_the_apllication() throws Throwable {
+		driver.get("https://www.amazon.in/ref=ap_frn_logo");
+		
+		WebElement ele = driver.findElement(By.partialLinkText("Hello, Sign in"));
+		
+		actions("movetoelement", ele);
+		
+	}
+
+	@When("^user should click on signin Button$")
+	public void user_should_click_on_signin_Button() throws Throwable {
+		WebElement signButton = driver.findElement(By.xpath("//span[@class='nav-action-inner']"));
+		clickonelement(signButton);
+	}
+
+	@When("^user should enter the mobile number$")
+	public void user_should_enter_the_mobile_number() throws Throwable {
+		WebElement mobil = driver.findElement(By.xpath("//input[@name='email']"));
+		passingthevalue(mobil, "8124780103");
+	}
+
+	@When("^user should click the continue button$")
+	public void user_should_click_the_continue_button() throws Throwable {
+		WebElement contin = driver.findElement(By.xpath("//input[@id='continue']"));
+		clickonelement(contin);
+	}
+
+	@When("^user should enter the password$")
+	public void user_should_enter_the_password() throws Throwable {
+		WebElement password = driver.findElement(By.xpath("//input[@id='ap_password']"));
+		passingthevalue(password, "8124780103@kK");
+	}
+
+	@Then("^user should click on signin button and navigate to homepage$")
+	public void user_should_click_on_signin_button_and_navigate_to_homepage() throws Throwable {
+		WebElement signin = driver.findElement(By.xpath("//input[@id='signInSubmit']"));
+		clickonelement(signin);
+	}
+
+//	@Then("^mouse over action$")
+//	public void mouse_over_action() throws Throwable {
+//	}
+//
+//	@Then("^user should click on your order links$")
+//	public void user_should_click_on_your_order_links() throws Throwable {
+//	}
+//
+//	@Then("^user should click on your yet not shipped links$")
+//	public void user_should_click_on_your_yet_not_shipped_links() throws Throwable {
+//	}
+//
+//	@Then("^user should click on your cancelled order links$")
+//	public void user_should_click_on_your_cancelled_order_links() throws Throwable {
+//	}
+//
+
+
+}

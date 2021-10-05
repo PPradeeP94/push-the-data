@@ -1,0 +1,25 @@
+Feature: amazon orders page review
+
+
+Background:
+Given user should launch the apllication
+When user should click on signin Button
+When user should enter the mobile number
+When user should click the continue button
+And user should enter the password
+Then user should click on signin button and navigate to homepage
+
+
+    
+Scenario: amazon homepage 
+Then mouse over action
+
+Scenario: your order page
+Then user should click on your order links
+
+Scenario: not yet shipped page
+Then user should click on your yet not shipped links
+
+Scenario: cancelled orders page
+Then user should click on your cancelled order links
+

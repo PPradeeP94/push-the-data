@@ -1,0 +1,57 @@
+package com.javaprogr;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Armstrong {
+	
+		
+	public static void main(String[] xc) {
+		
+		
+//		String a="welcome to java";
+//		String[] sp = a.split("");
+//		
+//		StringBuffer sb = new StringBuffer();
+//		
+//		for (int i = 0; i < a.length(); i++) {
+//			char c = sp[i].charAt(0);
+//			char upperCase = Character.toUpperCase(c);
+//			String substring = sp[i].substring(1);
+//			StringBuffer append = sb.append(upperCase).append(substring).append(" ");
+//		//	System.out.println(append);
+//			
+//		}
+//	
+//		String trim = sb.toString().trim();
+//		System.out.println(trim);
+		
+		String a= "roadblock java ";
+				
+		
+		
+		Map<String, Integer> mp = new HashMap<String, Integer>();
+		
+		String[] split = a.split(" ");
+		
+		for (String c : split) {
+			
+			if (mp.containsKey(c)) {
+				Integer inte = mp.get(c);
+				mp.put(c, inte+1);
+			}
+			else {
+				mp.put(c, 1);
+			}
+		}
+		System.out.println(mp);
+		
+		}
+		}
+		
+		
+	
+
+	

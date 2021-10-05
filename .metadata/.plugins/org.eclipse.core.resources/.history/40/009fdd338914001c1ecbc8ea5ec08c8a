@@ -1,0 +1,15 @@
+package Opps_Concepts;
+
+public class class_B {
+	
+	public  void method3() {
+		System.out.println("method B");
+
+	}
+	public static void main(String[] args) {
+		class_A c = new class_A();
+		c.method1();
+		
+	}
+
+}

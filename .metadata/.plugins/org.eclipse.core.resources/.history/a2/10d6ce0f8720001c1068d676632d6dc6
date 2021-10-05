@@ -1,0 +1,17 @@
+package com.pom;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Select_Hotel {
+	
+	
+	@FindBy(xpath = "//input[@name='radiobutton_0']")
+	private WebElement radio_Button;
+	
+	@FindBy(xpath = "//input[@name='continue']")
+	private WebElement continue_Button;
+	
+	
+
+}

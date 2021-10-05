@@ -1,0 +1,47 @@
+package com.pom;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Book_Hotel {
+	
+	
+	@FindBy(xpath = "//input[@name='first_name']")
+	private WebElement first_name;
+	
+	@FindBy(xpath = "//input[@name='last_name']")
+	private WebElement last_name;
+	
+	@FindBy(xpath = "//textarea[@name='address']")
+	private WebElement billing_Adress;
+	
+	@FindBy(xpath = "//input[@name='cc_num']")
+	private WebElement credit_Number;
+	
+	@FindBy(xpath = "//select[@name='cc_type']")
+	private WebElement credit_Card_Type;
+	
+	@FindBy(xpath = "//select[@name='cc_exp_month']")
+	private WebElement month;
+	
+	@FindBy(xpath = "//select[@name='cc_exp_year']")
+	private WebElement year;
+	
+	@FindBy(xpath = "//input[@name='cc_cvv']")
+	private WebElement cvv_Number;
+	
+	@FindBy(xpath = "//input[@name='book_now']")
+	private WebElement book_now_Button;
+	
+
+
+
+
+
+
+	
+
+
+
+
+}
