@@ -28,30 +28,55 @@ public class Armstrong {
 //		String trim = sb.toString().trim();
 //		System.out.println(trim);
 		
-		String a= "roadblock";
-				int count=0;
+//		String a="manipulations";
+//		
+//		int vowels = 0;
+//		int nonvowels =0;
+//		
+//		Map<Character, Integer> vowmap = new HashMap<Character, Integer>();
+//		Map<Character, Integer> nonmap= new HashMap<Character, Integer>();
+//		for (int i = 0; i < a.length(); i++) {
+//			char c = a.charAt(i);
+//			
+//			if (c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U') {
+//				if (vowmap.get(c)==null) {
+//					vowmap.put(c, 1);
+//					
+//				}
+//				else {
+//					Integer intr = vowmap.get(c);
+//					vowmap.put(c, intr+1);
+//				}
+//				vowels++;
+//			}
+//			else {
+//				if (nonmap.get(c)==null) {
+//					nonmap.get(c);
+//					vowmap.put(c, 1);
+//				}
+//				else {
+//					Integer intr = nonmap.get(c);
+//					nonmap.put(c, intr+1);
+//				}
+//				nonvowels++;
+//			}
+//		}
+//		System.out.println(vowmap+"="+vowels);
+//		System.out.println(nonmap+"="+nonvowels);
 		
-		Map<Character, Integer> mp = new HashMap<Character, Integer>();
 		
-		char[] charArray = a.toCharArray();
 		
-		for (char c : charArray) {
-			
-			if (mp.containsKey(c)) {
-				Integer count1 = mp.get(c);
-				count1++;
-				mp.put(c, count1+1);
-				System.out.println(count1);
-			}
-			else {
-				mp.put(c, 1);
-			}
-		}
-		System.out.println(mp);
-		}
-		}
+		
+		
+		}}
 		
 		
 	
 
 	
+
+
+
+
+
+

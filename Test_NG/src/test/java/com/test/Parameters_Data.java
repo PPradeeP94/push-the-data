@@ -13,8 +13,8 @@ import org.testng.annotations.Test;
 public class Parameters_Data {
 	
 	@Parameters({"username","password"})
-	@Test
-	private void login(@Optional("krish")String e_mail, String pass) throws Throwable {
+	@Test()
+	private void login(@Optional("krish")String e_mail, @Optional("567890")String pass) throws Throwable {
 
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Hari Krishna\\eclipse-workspace\\Test_NG\\New_Driver\\chromedriver.exe");

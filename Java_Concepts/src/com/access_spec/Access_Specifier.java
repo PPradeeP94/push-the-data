@@ -25,7 +25,7 @@ public class Access_Specifier  {
 		 System.out.println("Default :"+a);
 
 	}
-	protected void add3() {
+	protected  void add3() {
 		System.out.println("Protected :"+a);
 	}
 	

@@ -1,0 +1,11 @@
+package com.keywords;
+
+public class keywords2 {
+
+	
+	public void color() {
+		System.out.println("red");
+
+	}
+	static int var=20;
+}

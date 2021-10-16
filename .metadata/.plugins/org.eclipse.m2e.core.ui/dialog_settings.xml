@@ -27,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com"/>
 			<item value="com.Amazon"/>
 			<item value="com.Adactin"/>
 			<item value="com.Test_NG"/>
@@ -36,7 +37,6 @@
 			<item value="com.Automstion_prastice_Work"/>
 			<item value="com.Automation_Practise_2021"/>
 			<item value="com.Automation_Practise_Mvn"/>
-			<item value="com"/>
 		</list>
 		<list key="groupId">
 			<item value="com"/>

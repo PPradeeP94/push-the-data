@@ -1,3 +1,7 @@
+
+
+
+
 package com.test;
 
 import java.util.concurrent.TimeUnit;import javax.xml.xpath.XPath;
@@ -14,7 +18,7 @@ import org.testng.annotations.Test;
 
 public class Parallel_Test {
 
-	@Test
+	//@Test
 	private void login() throws Throwable {
 
 		System.setProperty("webdriver.chrome.driver",

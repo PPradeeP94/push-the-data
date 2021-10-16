@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.Excepted_Exception">
+      <class name="com.test.Data_Provider">
         <methods>
-          <include name="findelements"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.test.Excepted_Exception -->
+      </class> <!-- com.test.Data_Provider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

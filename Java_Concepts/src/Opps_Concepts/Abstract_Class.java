@@ -13,7 +13,7 @@ public  abstract class Abstract_Class {
 	public void brakeSystem() {
 		System.out.println("abs Brake system");
 	}
-	public abstract void engineType();
+	public  abstract  void engineType();
 	 
 	 protected abstract void Bikecolor();
 	 

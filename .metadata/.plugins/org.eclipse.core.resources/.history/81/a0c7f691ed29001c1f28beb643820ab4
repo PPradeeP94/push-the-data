@@ -1,0 +1,16 @@
+package com.pdf_programs;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Repitative_string {
+	
+	String x ="Welcome to java to world";
+	
+	
+	
+	Map<String, Integer> mp = new HashMap<String, Integer>();
+	
+	
+
+}

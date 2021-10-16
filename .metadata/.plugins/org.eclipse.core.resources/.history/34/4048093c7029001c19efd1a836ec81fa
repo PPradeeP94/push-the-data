@@ -1,0 +1,13 @@
+package com.topics;
+
+public class abc  {
+
+	public static void main(String[] args) {
+		
+		Assert_Types as = new Assert_Types();
+		
+		as.data();
+		
+	}
+	
+}

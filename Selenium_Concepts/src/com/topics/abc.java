@@ -1,10 +1,9 @@
 package com.topics;
 
-public class abc extends breowser {
+public class abc  {
 
 	public static void main(String[] args) {
 		
-		launch();
 		
 	}
 	

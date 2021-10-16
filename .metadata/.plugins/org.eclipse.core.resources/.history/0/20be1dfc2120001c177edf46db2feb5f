@@ -1,6 +1,0 @@
-
-Feature: Adactin site
-
-Scenerio: browser
-Given launch
-When get url

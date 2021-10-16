@@ -16,9 +16,14 @@ import cucumber.api.junit.Cucumber;
 		
 		features = "featurefiles/Adactin.feature",
 		
-		glue = "com.definition",
+		glue = {"com.definition","com.hooks"},
 		
-		monochrome = true
+		monochrome = true,
+		
+		dryRun  = false,
+		
+		strict = true
+		
 		
 //		plugin = 
 //			

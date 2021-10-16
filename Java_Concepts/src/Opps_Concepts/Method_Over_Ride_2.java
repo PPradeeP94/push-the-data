@@ -2,6 +2,7 @@ package Opps_Concepts;
 
 public class Method_Over_Ride_2 extends Method_Over_Ride_1{
 	
+	
 	@Override
 	public void brand() {
 		super.brand();

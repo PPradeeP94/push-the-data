@@ -9,7 +9,7 @@ public class Hash_Set {
 	
 	public static void main(String[] args) {
 		
-		Set<Object> st = new HashSet<Object>();
+		Set<Object> st = new TreeSet<Object>();
 		
 	//	st.add(null);
 		st.add(23);

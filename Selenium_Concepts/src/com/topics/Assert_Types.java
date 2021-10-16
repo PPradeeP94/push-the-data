@@ -1,21 +1,42 @@
 package com.topics;
 
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT;
+
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBys;
 
-public class Assert_Types {
+public  class Assert_Types {
 	
-	
-	
+		static int a;
 	
 	public static void main(String[] args) {
+		//System.out.println(a/1);
+		
+		try {
+			System.out.println(a/0);
+		}
+		catch (Exception e) {
+			System.out.println("not");
+		}
+		
+		finally {
+			System.out.println("ok");
+		}
 		
 		
-		
+		for (int i = 1; i <=15; i++) {
+			if (i>=10) {
+				
+				continue;
+				
+			}
+			System.out.println(i);
+		}
 	}
-
 }
+
+
 // --------.......15A...........
 
 //partialLinktest v/slink test
@@ -29,38 +50,13 @@ public class Assert_Types {
 // 46
 
 
-
-
-
-
-
-//  ----15-----
-
-// 3----annotations
-// 10----@CacheLookup
-// 11--junit
-// 12---unit testing
-// 20----use of annotatins
-// 22---assert class
-// 28,29 ---handle exception
-// 39--ssenerio outline
+//=====15=====
+// 10---cachelookup
+// 20---use of annotation
 // 40---step definition
-// 46---runner class
-// 57
-// 60---hooks
-// 61---
-
-// 71---suite
-// 81--parallel
-// 82---parallel excution
-
-
-
-//------15B----
-// 37--stale element
-// 39---debug
-// 40---debug
-// 54---draganddrop
-// 56----perform
-// 75---options 
-// 80---selected options
+// 50----behave b/w cucumber
+// 55---keywords
+// 61---parallel cumcumber
+// 71---testNg suite
+// 85 listenrs
+// 88 ---factory

@@ -22,12 +22,14 @@ public class Let_Code_Part1 {
         	public static void main(String[] args) throws Throwable {
 		
 	      	System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\Hari Krishna\\eclipse-workspace\\Seiinium_Installation\\Driver\\chromedriver.exe");
+				"C:\\Users\\Hari Krishna\\eclipse-workspace\\Let_Code\\New_Driver\\chromedriver.exe");
 	      	
 	      	WebDriver driver =new ChromeDriver();
 	      	driver.get("https://letcode.in/");
 	      	
 	//      	      **-------inputs------**
+	      	
+	      	
 	      	
 	      	WebElement workspace = driver.findElement(By.xpath("//a[@id='testing']"));
 	      	workspace.click();

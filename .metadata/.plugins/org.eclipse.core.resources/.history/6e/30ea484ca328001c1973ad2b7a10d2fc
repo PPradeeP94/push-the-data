@@ -1,0 +1,52 @@
+package com.topics;
+
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class breowser {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Hari Krishna\\eclipse-workspace\\Selenium_Concepts\\New_Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.myntra.com/men-tshirts");
+		
+	//	driver.navigate().to("https://www.amazon.in/");
+		
+		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+		
+		WebElement shirt1 = driver.findElement(By.xpath("(//span[@class='product-discountedPrice'])[1]"));
+		shirt1.click();
+		
+		WebElement shirt2 = driver.findElement(By.xpath("(//span[@class='product-discountedPrice'])[2]"));
+		shirt2.click();
+		
+		WebElement shirt3 = driver.findElement(By.xpath("(//span[@class='product-discountedPrice'])[3]"));
+		shirt3.click();
+		
+		WebElement shirt4 = driver.findElement(By.xpath("(//span[@class='product-discountedPrice'])[4]"));
+		shirt4.click();
+
+		Set<String> handles = driver.getWindowHandles();
+		
+		for(String hand :handles) {
+			String title = driver.switchTo().window(hand).getTitle();
+			System.out.println(title);
+			String a= "Buy Roadster Men Maroon Printed Round Neck T Shirt - Tshirts for Men 2308267 | Myntra";
+			String b= "Buy HRX By Hrithik Roshan Men Teal Blue Printed T Shirt - Tshirts for Men 1700871 | Myntra";
+			driver.close();
+			
+			if (title.equalsIgnoreCase(b)) {
+				break;
+			}
+		}
+
+
+	}
+}
